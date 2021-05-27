@@ -29,3 +29,54 @@
 
 </body>
 </html>
+
+//switch case
+
+<!DOCTYPE html>
+<html>
+<body>
+
+
+       
+      <?php
+$a ='vimal';
+switch($a){
+ case ram:
+  echo "hello ram";
+  break;
+  case sam:
+  echo "hello sam";
+  break;
+  case vimal:
+  echo "hello vimal";
+  break;
+  default :
+  echo'plz selcet correct option';
+}
+?>
+
+
+</body>
+</html>
+
+
+//if...else
+
+
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php
+$t = date("H");
+
+if ($t < "20") {
+  echo "Have a good day!";
+} else {
+  echo "Have a good night!";
+}
+?>
+ 
+</body>
+</html>
