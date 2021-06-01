@@ -1,18 +1,17 @@
-
-<!-- if...else -->
 <!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
 <html>
-<body>
-
-<?php
-$t = date("H");
-
-if ($t < "20") {
-  echo "Have a good day!";
-} else {
-  echo "Have a good night!";
-}
-?>
- 
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+    </head>
+    <body>
+        <?php
+        // put your code here
+        ?>
+    </body>
 </html>
