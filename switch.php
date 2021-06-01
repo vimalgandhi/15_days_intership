@@ -1,5 +1,6 @@
 
 <!-- switch case -->
+<!-- day2-->
 
 <!DOCTYPE html>
 <html>
