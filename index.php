@@ -1,17 +1,15 @@
-<!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <title></title>
-    </head>
-    <body>
-        <?php
-        // put your code here
-        ?>
-    </body>
-</html>
+<?php
+$host = "localhost";
+$username="root";
+$passwd ="";
+$dbname = "db_internship";
+// connection function 
+$connection= mysqli_connect($host, $username, $passwd, $dbname);
+
+$q=mysqli_query($connection, 
+        "insert into tbl_user(user_name,user_gender,user_mobile) values('meet','male','123')") or die ("error". mysqli_error($connection));
+
+if($q)
+{
+    echo"<script>aleart('record added in database');</script>";
+}
